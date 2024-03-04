@@ -1,22 +1,39 @@
 import blockContent from './blockContent'
-import crewMember from './crewMember'
-import castMember from './castMember'
-import movie from './movie'
-import person from './person'
-import screening from './screening'
-import plotSummary from './plotSummary'
-import plotSummaries from './plotSummaries'
+
+import client from './client'
+import service from './service'
+import project from './project'
+import teamMember from './teamMember'
+import testimonial from './testimonial'
+import role from './role'
+import department from './department'
+import clientcompany from './clientcompany'
+import homePage from './homePage'
+import aboutUs from './aboutUs'
+import websiteProject from './websiteProject'
+
 
 export const schemaTypes = [
   // Document types
-  movie,
-  person,
-  screening,
+  aboutUs,
+  homePage,
+  client,
+  role,
+  clientcompany,
+  department,
+  service,
+  project,
+  teamMember,
+  testimonial,
+  websiteProject,
+
+
+
 
   // Other types
   blockContent,
-  plotSummary,
-  plotSummaries,
-  castMember,
-  crewMember,
+
+
+
+
 ]
